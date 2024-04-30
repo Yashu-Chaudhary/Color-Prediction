@@ -1,4 +1,5 @@
-import 'package:color_pridiction/screens/home_page.dart';
+// ignore: unused_import
+import 'package:color_pridiction/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -8,7 +9,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
